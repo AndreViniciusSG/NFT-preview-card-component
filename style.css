@@ -1,0 +1,196 @@
+@charset "UTF-8";
+
+/* Formatação do Body */	
+body {
+	font-family: Arial; sans-serif;
+	background-color: rgba(13, 26, 45, 1);
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+}
+/* Formatação para fonte */
+@font-face {
+    font-family: 'MusticaPro';
+    src: url(fonts/MusticaPro.otf) format("truetype-variations");
+    font-weight: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'GeosansLight';
+    src: url(fonts/GeosansLight.ttf) format("truetype-variations");
+    font-weight: normal;
+    font-display: swap;
+}
+/* Formatação do container principal */
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(13, 26, 45, 1);
+	text-align: center;
+}
+/* Formatação do container child1 */
+.child1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 390px;
+	height: 600px;
+	padding: 0;
+	text-align: center;
+	border-radius: 50px;
+	background-color: rgba(12, 25, 44, 1);
+}
+/* Formatação do container child2 */
+.child2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 325px;
+	height: 530px;
+	padding: 0;
+	border-bottom: 20px solid rgba(12, 23, 41, 1);
+	text-align: center;
+	border-radius: 40px;
+	background-color: rgba(12, 23, 41, 1);
+}
+/* Formatação do container nft */
+.nft{
+	width: 300px;
+	height: 500px;
+	padding: 0;
+	background-color: white;
+	text-align: center;
+	border-radius: 15px;
+	background-color: rgba(21, 39, 63, 1);
+}
+/* Formatação da div logo */
+.logo{
+	text-align: center;
+	border-radius: 15px;
+	background-image: url(images/image-equilibrium.jpg);
+	background-repeat: no repeat;
+	background-size: cover;
+	width: 90%;
+	height: 55%;
+	margin: 15px 15px 2px 15px;
+}
+/* Formatação da div informacoes */
+.informacoes{
+	margin: 0;
+	padding-left: 10px;
+	background-color: rgba(21, 39, 63, 1);
+}
+/* Formatação da div dados */
+.dados{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	padding: 0;
+	margin: 0px 10px 0px 20px;
+	text-align: center;
+	background-color: rgba(21, 39, 63, 1);
+	border-bottom:  1px solid #dddddd;
+}
+/* Formatação da div creation */
+.creation{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	margin-left: 7px;
+	margin-top: 5px;
+	background-color: rgba(21, 39, 63, 1);
+}
+/* Formatação do h1 da div informacoes */
+.informacoes h1{
+	font-family: MusticaPro;
+	font-weight: bold;
+	color: white;
+	text-align: left;
+	padding: 0px 10px 0px 10px;
+	font-size: 15pt;
+}
+/* Formatação do a - h1 como link da div informacoes */
+.informacoes a{
+	text-decoration: none;
+}
+/* Formatação do a - h1 ao passar o mouse */
+.informacoes h1:hover{
+	color: rgba(11, 236, 238, 1);
+}
+/* Formatação do h1 da div informacoes */
+.informacoes p{
+	font-family: MusticaPro;
+	font-weight: normal;
+	color: white;
+	text-align: left;
+	padding: 0px 10px 0px 10px;
+	font-size: 9pt;
+	letter-spacing: 0.1em;
+	margin: 0;
+}
+/* Formatação do h1 da div dados */
+.dados h1{
+	font-family: MusticaPro;
+	font-weight: normal;
+	text-align: center;
+	font-weight: normal;
+	color: rgba(11, 236, 238, 1);
+	padding: 0px;
+	font-size: 10pt;
+	margin: 0px 105px 0px 5px;
+}
+
+/* Formatação do p da div dados */
+.dados p{
+	font-family: MusticaPro;
+	font-weight: normal;
+	color: white;
+	font-weight: normal;
+	padding: 0;
+	font-size: 10pt;
+	margin-left: 5px;
+}
+/* Formatação da imagem1 da div dados */
+.dados img#ethereum {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+/* Formatação da imagem2 da div dados */
+.dados img#clock {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+/* Formatação da imagem de perfil da div creation */
+.creation img{
+	margin: 10px;
+	width: 32px;
+	height: 32px;
+	border: 2px solid white;
+	border-radius: 50%;
+}
+
+.creation h1{
+	color: white;
+	font-size: 10pt;
+	margin: 3px;
+}
+
+.creation a{
+	text-decoration: none;
+}
+
+.creation p:hover{
+	color: rgba(11, 236, 238, 1);
+}	
+	
+.creation p{
+	display: inline;
+	color: white;
+	font-size: 10pt;
+}
