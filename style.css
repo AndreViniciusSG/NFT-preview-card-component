@@ -186,7 +186,7 @@ body {
 	border: 2px solid white;
 	border-radius: 50%;
 }
-
+/* Formatação do h1 da div creation */
 .creation h1{
 	font-family: MusticaPro;
 	font-weight: normal;
@@ -195,19 +195,35 @@ body {
 	font-size: 10pt;
 	margin: 3px;
 }
-
+/* Formatação da ancora da div creation */
 .creation a{
 	text-decoration: none;
 }
-
+/* Formatação ao passar o mouse*/
 .creation p:hover{
 	color: rgba(11, 236, 238, 1);
 }	
-	
+/* Formatação do p da div creation passar */
 .creation p{
 	font-family: MusticaPro;
 	font-weight: bold;
 	display: inline;
 	color: white;
 	font-size: 10pt;
+}
+/* Formatação da div attribution */
+.attribution {
+	position: fixed;
+	text-align: center;
+	width: 100vw;
+	letter-spacing: 0.1em;
+	color: white;
+	padding: 10px;
+	font-size: 10px; 
+	text-align: center;
+    bottom: 0;
+}
+/* Formatação da ancora da div attribution */
+.attribution a{
+	text-decoration: none;
 }
